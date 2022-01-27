@@ -1,0 +1,111 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+body {
+    /*
+    background-image: linear-gradient(to top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    */
+    background-color: #212529;
+    
+}
+
+header{
+    background: #0d0d29;
+    color: white;
+    padding: 12px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+header li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+
+form .form-control {
+    background:none;
+    border:none;
+    border-bottom:1px solid #434a52;
+    border-radius:0;
+    box-shadow:none;
+    outline:none;
+    color:inherit;
+}
+
+.form-select{
+    color: white;
+    background-color: #212529;
+    border-color: #434a52;
+}
+
+header li a:hover{
+    background-color: rgba(255, 255, 255, 0.253);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+header li a:active{
+    background-color: rgba(255, 255, 255, 0.527);
+
+}
+
+.btn {
+    width: 100px;
+    height: 29px;
+    text-align: left;
+    margin-right: 0px;
+}
+
+.conteudo{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+    background-color: #1d1f22;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.479);
+    border-radius: 12px;
+    min-width: 419px;
+    max-width: 800px;
+    margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+thead{
+    background-color: #121212;
+}
+
+.dado_tabela{
+    padding: 2px;
+    width: 15px;
+    margin: 0px;    
+}
+
+.conteudo table tr{
+    text-align: left;
+}
+
+.adc-filme{
+   margin-bottom: 20px;
+   display: block;
+   float: right;
+   width: 140px;
+}
+
+li a{
+    color: white;
+    padding: 0px;
+}
+
+a {
+    margin-bottom: 8px;
+    margin-right: 0px;
+}
